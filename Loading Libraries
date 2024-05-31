@@ -1,0 +1,20 @@
+Load Required Libraries -------------------------------
+## Note: These are libraries I've used
+```{r}
+#install libraries
+if (!require(ggplot2)) {install.packages("ggplot2")}
+if (!require(ggformula)) {install.packages("ggformula")}
+if (!require(mosaic)) {install.packages("mosaic")}
+if (!require(dplyr)) {install.packages("dplyr")}
+if (!require(supernova)) {install.packages("supernova")}
+if (!require(knitr)) {install.packages("knitr")}
+
+#load libraries
+library(ggplot2)
+library(ggformula)
+library(mosaic)
+library(dplyr)
+library(supernova)
+library(knitr)
+```
+END
