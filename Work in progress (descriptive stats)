@@ -1,0 +1,16 @@
+
+Missingness -------------------------------------------
+```{r}
+sum(is.na(my_data)
+
+clean_data <- na.omit(my_data)
+#NOTE: Do this as needed, its not good practice to simply omit all na data. 
+```
+
+
+Descriptive Statistics --------------------------------
+```{r}
+summary(my_data)
+
+favstats(my_data
+```
