@@ -1,0 +1,11 @@
+
+
+Data Visualization ------------------------------------
+```{r}
+ggplot(
+  my_data,
+  aes(x = column1,  #columns of choice
+      y = column2)
+  )
+```
+END
